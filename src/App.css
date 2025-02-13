@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+.text-quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+}
+
+.text-inter {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+
+.transcenter {
+  @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+.transall {
+  @apply transition-all duration-100 ease-out;
+}
+
+.flexc {
+  @apply flex justify-center items-center;
+}
+
+.colornya {
+  /* color: rgb(255, 168, 55); */
+  color: rgb(204, 133, 40);
+}
+
+/* #e09129 */
+/* #da7b00 */
+
+.animate-show {
+  animation: show 0.5s ease-out both;
+}
+.animate-hidden {
+  animation: hidden 0.5s ease-out both;
+}
+
+@keyframes show {
+  from {
+    right: -20%;
+  }
+  to {
+    right: 1%;
+  }
+}
+
+@keyframes hidden {
+  from {
+    right: 1%;
+  }
+  to {
+    right: -20%;
+  }
+}
+
+@theme {
+  --font-inter: "Inter", serif;
+  --color-navbar: white;
+  --color-primary: rgb(255, 168, 55);
+  --color-primary-empas: rgb(204, 133, 40);
+  --color-primary-blend: rgba(224, 145, 41, 0.8);
+  --color-content: #faebd8;
+  --color-hirang: rgba(36, 36, 36, 1);
+  --color-hirang-pudar: rgba(36, 36, 36, 0.98);
+  --color-kuning-pudar: rgba(49, 33, 10, 0.95);
+}
