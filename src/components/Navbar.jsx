@@ -70,7 +70,7 @@ function Navbar() {
           {/* === LOGO === */}
 
           <nav class="relative font-semibold text-base lg:text-lg flex justify-center sm:w-60 h-full">
-            <ul class="sm:flex justify-center items-center w-full hidden">
+            {/* <ul class="sm:flex justify-center items-center w-full hidden">
               <a
                 href=""
                 class="py-2 mx-2 px-5 rounded bg-[#e09129] hover:bg-white hover:text-[#e09129] outline hover:outline-none transall text-base"
@@ -83,7 +83,7 @@ function Navbar() {
               >
                 <span className="hidden sm:flex">About</span>
               </a>
-            </ul>
+            </ul> */}
 
             <div className="absolute top-0 right-0 h-full gap-3 px-3 flexc">
               <span

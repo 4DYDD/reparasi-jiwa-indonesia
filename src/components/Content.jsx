@@ -72,7 +72,7 @@ function Content() {
               {/* === CARD 1 === */}
               <div
                 ref={ref1}
-                className="container text-white bg-primary h-[80vh] flexc"
+                className="container text-white bg-primary h-[85vh] flexc"
               >
                 {inView1 && (
                   <span className="mx-20 text-3xl text-center !h-1/3 flexc">
